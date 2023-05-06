@@ -7,6 +7,97 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
+#main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+#title {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 15px;
+  background-color: #ECECECFF;
+}
+span {
+  display: flex;
+  justify-content: center;
+}
+
+#img-div {
+  text-align: center;
+  margin: 20px 0;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+#img-caption {
+  font-style: italic;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+#tribute-info {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-top: 20px;
+}
+
+#tribute-link {
+  display: block;
+  text-align: center;
+  margin-top: 20px;
+  text-decoration: none;
+  background-color: #312f2f;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+#tribute-link:hover {
+  background-color: #697885;
+}
+blockquote {
+  background-color: #f9f9f9;
+  border-left: 10px solid #ccc;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+}
+#biography-section{
+  margin: 0 auto;
+  width: 50%;
+  line-height: 1.9;
+  font-size: 18px;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5vh; /* Set the container's height to fill the viewport */
+}
+section {
+  background-color: #ECECECFF;
+}
+h2 {
+  margin: 0 auto;
+
+}
+blockquote {
+  color: initial; /* resets the color property to its default value */
+  background-color: initial; /* resets the background-color property to its default value */
+  border: none; /* removes any border */
+  margin: 0 auto;
+  width: 55%;
+  font-size: 20px;
+}
+
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
